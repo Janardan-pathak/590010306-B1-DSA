@@ -6,10 +6,10 @@
 <br>
 **SAP Id:- 590010306**
 
-### Screen Shot of Implementation of Stack using array
+### Screen Shot of Implementation of [Stack using array](./StackUsingArray.c)
 
 ![Stack Using Array](./StackUsingArray.png)
 
-### Screen Shot of Implementation of Stack using Linked List
+### Screen Shot of Implementation of [Stack using Linked List](./StackUsingLinkedList)
 
 ![Stack Using Linked List](./StackUsingLinkedList.png)
