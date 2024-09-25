@@ -10,6 +10,6 @@
 
 ![Stack Using Array](./StackUsingArray.png)
 
-### Screen Shot of Implementation of [Stack using Linked List](./StackUsingLinkedList)
+### Screen Shot of Implementation of [Stack using Linked List](./StackUsingLinkedList.c)
 
 ![Stack Using Linked List](./StackUsingLinkedList.png)
