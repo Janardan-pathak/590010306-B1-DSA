@@ -42,9 +42,9 @@ void display() {
 
   struct Node *temp = top;
   printf("Stack element\n");
-  return;
+
   while (temp != NULL) {
-    printf("%d", temp->data);
+    printf("%d ", temp->data);
     temp = temp->next;
   }
 
