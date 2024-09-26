@@ -9,10 +9,10 @@
 
 #### [hackerRank Profile](https://www.hackerrank.com/profile/janardanpathak)
 
-### Screen Shot of Implementation of [Stack using array](./images/StackUsingArray.c)
+### Screen Shot of Implementation of [Stack using array](./StackUsingArray.c)
 
 ![Stack Using Array](./images/StackUsingArray.png)
 
-### Screen Shot of Implementation of [Stack using Linked List](./images/StackUsingLinkedList.c)
+### Screen Shot of Implementation of [Stack using Linked List](./StackUsingLinkedList.c)
 
 ![Stack Using Linked List](./images/StackUsingLinkedList.png)
