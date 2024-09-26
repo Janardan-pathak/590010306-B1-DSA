@@ -6,12 +6,13 @@
 <br>
 **SAP Id:- 590010306**
 <br>
+
 #### [hackerRank Profile](https://www.hackerrank.com/profile/janardanpathak)
 
-### Screen Shot of Implementation of [Stack using array](./StackUsingArray.c)
+### Screen Shot of Implementation of [Stack using array](./images/StackUsingArray.c)
 
-![Stack Using Array](./StackUsingArray.png)
+![Stack Using Array](./images/StackUsingArray.png)
 
-### Screen Shot of Implementation of [Stack using Linked List](./StackUsingLinkedList.c)
+### Screen Shot of Implementation of [Stack using Linked List](./images/StackUsingLinkedList.c)
 
-![Stack Using Linked List](./StackUsingLinkedList.png)
+![Stack Using Linked List](./images/StackUsingLinkedList.png)
