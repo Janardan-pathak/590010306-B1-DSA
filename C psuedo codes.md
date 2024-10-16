@@ -128,7 +128,45 @@ void insertAtGivenPos(int num, int pos) {
   }
 }
 ```
+## Circular Linked List
 
+### Node Creation 
+```c
+void createCll(int num) {
+
+  struct node *newNode = (struct node *)malloc(sizeof(struct node));
+  newNode->data = num;
+  newNode->next = NULL;
+  if (head == NULL) {
+    head = newNode;
+    newNode->next = head;
+  } else {
+    struct node *temp = head;
+    while (temp->next != head) {
+      temp = temp->next;
+    }
+    temp->next = newNode;
+    newNode->next = head;
+  }
+}
+```
+
+### Displaying elements in Circular LL
+
+```c
+void display() {
+  struct node *temp = head;
+  if (temp == NULL) {
+    printf("\nList is empty\n");
+  } else {
+    printf("\nElements are\n");
+    do {
+      printf("\n%d\n", temp->data);
+      temp = temp->next;
+    } while (temp != head);
+  }
+}
+```
 # Stack
 
 ## Stack Using array with Push and pop 
