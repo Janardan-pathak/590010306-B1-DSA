@@ -453,7 +453,59 @@ int main() {
 }
 ```
 
+## Circular Queue and its operation
 
+```c
+void enqueue(int num) {
+  struct node *newNode = (struct node *)malloc(sizeof(struct node));
+  newNode->data = num;
+  newNode->next = NULL;
+
+  if (front == 0 && rear == 0) {
+    front = rear = newNode;
+    rear->next = front;
+  } else {
+    rear->next = newNode;
+    rear = newNode;
+    rear->next = front;
+  }
+}
+void display() {
+  if (front == 0 && rear == 0) {
+    printf("\nQueue is empty\n");
+  } else {
+    struct node *temp = front;
+    printf("\nElement of Queue are\n");
+    do {
+      printf("\n%d\n", temp->data);
+      temp = temp->next;
+    } while (temp != front);
+  }
+}
+
+void dequeue() {
+  struct node *temp = front;
+  if (front == 0) {
+    printf("\nQueue is empty\n");
+  } else if (front == rear) {
+    front = rear = 0;
+    free(temp);
+  } else {
+    front = front->next;
+    rear->next = front;
+    free(temp);
+  }
+}
+void peek() {
+  struct node *temp = front;
+  if (temp == 0) {
+    printf("\nQueue is empty");
+  } else {
+    printf("\n%d is at top\n", temp->data);
+  }
+}
+
+```
 
 
 
